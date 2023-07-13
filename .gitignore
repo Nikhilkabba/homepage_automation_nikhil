@@ -1,0 +1,12 @@
+/target/
+src/.DS_Store
+*.prefs
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/jarRepositories.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.DS_Store
+.project
+.classpath

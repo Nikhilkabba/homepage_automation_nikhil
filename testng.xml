@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HOMEPAGE_AUTOMATION">
+    <listeners>
+        <listener class-name="acko.utilities.ExtentReporterNG"/>
+        <listener class-name="acko.utilities.CustomTestNGReporter"/>
+    </listeners>
+
+    <test name="01" preserve-order="true">
+        <classes>
+
+            <class name="testcases.TS_01_lobwidget"/>
+            <class name="testcases.TS_02_bikeFlow"/>
+            <class name="testcases.TS_03_carFlow"/>
+            <class name="testcases.TS_04_footer"/>
+            <class name="testcases.TS_05_header"/>
+
+        </classes>
+    </test>
+</suite> 
